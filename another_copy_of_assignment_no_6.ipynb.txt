@@ -1,0 +1,519 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOIv8rRmQ+1cvwaeOWuU9yT",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/irshadpro99/Assignment-04/blob/main/another_copy_of_assignment_no_6.ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "5t4ETUdrnwY_"
+      }
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "9uBdZo-ObqL_"
+      },
+      "outputs": [],
+      "source": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "1. Joining Strings Together(Concentration)\n"
+      ],
+      "metadata": {
+        "id": "2obW_QMXbtxV"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "first_name = \"Irshad\"\n",
+        "last_name = \"Ramzan\"\n",
+        "full_name = first_name + \" \" + last_name\n",
+        "print(full_name)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ZW6i5B07b6V0",
+        "outputId": "e0518835-d2c9-452b-e619-4ebea5b5031c"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Irshad Ramzan\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "first_name = \"Irshad\"\n",
+        "last_name = \"Ramzan\"\n",
+        "full_name = first_name + last_name\n",
+        "print(full_name)  #IrshadRamzan _ no space between\n",
+        "\n",
+        "full_name = first_name + \" \" + last_name\n",
+        "print(full_name)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "TbmQln0NcXQV",
+        "outputId": "d4edecf4-d238-479e-aca8-6be402013c5b"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "IrshadRamzan\n",
+            "Irshad Ramzan\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "2. Repeat a String\n"
+      ],
+      "metadata": {
+        "id": "kC4BsCNtd8QG"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "laugh = \"ha\"\n",
+        "print(laugh * 3)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "H2b7Xb4jeA7H",
+        "outputId": "cb0d6096-b0c5-4c02-a63c-610ae33201e5"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "hahaha\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "laugh = \"ha\"\n",
+        "print(laugh * 5)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "3r9OPgN3eW8H",
+        "outputId": "d4c67de0-4863-41d1-9bac-b79c736a1b8b"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "hahahahaha\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "3. How Long Is The String? (Length)\n"
+      ],
+      "metadata": {
+        "id": "AL0zd9z6eiIX"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "word = \"Python\"\n",
+        "print(len(word))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "XkMsCv2netNB",
+        "outputId": "93775063-c40d-49d7-c9d2-dff79f3b7c87"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "6\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "word = \"Irshad\"\n",
+        "print(len(word))\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Kjj33-y1fAEK",
+        "outputId": "adaa3d2e-128e-4163-e7ee-dda52727e189"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "6\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "text = \"I love Python\"\n",
+        "print(len(text))\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Eunr6-TufNw2",
+        "outputId": "619948fd-e637-4072-89ba-1f4cc967f158"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "13\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "4. Pick a Letter by Its Spot(Indexing)"
+      ],
+      "metadata": {
+        "id": "6-wsTusXfdBA"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "greeting = \"Irshad\"\n",
+        "print(greeting[0])     #fisrt letter\n",
+        "print(greeting [-1])   #last letter\n",
+        "print(greeting[0:3])   #fisrt to Three"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "32pVufGCfqWV",
+        "outputId": "e200a818-b4c0-4846-c7ab-8bcdaa9020b7"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "I\n",
+            "d\n",
+            "Irs\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "5. Cut Out a Piece (Slicing)\n"
+      ],
+      "metadata": {
+        "id": "T00_JON0gzkF"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "text = \"Irshad\"\n",
+        "print(text[0:3])\n",
+        "print(text[2:])\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "eowxKhacg-XY",
+        "outputId": "1434494b-a27e-4532-c421-5081b66d05be"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Irs\n",
+            "shad\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "text = \"Irshad\"\n",
+        "print(text[0:])\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "lWkT32bphWYo",
+        "outputId": "8a4b55f9-3475-4ff1-91c3-6e6113f04443"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Irshad\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "6. Change Letter Case\n"
+      ],
+      "metadata": {
+        "id": "Nqda9kO7h0cZ"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "name = \"python\"\n",
+        "print(name.upper())        #All Capital Letters\n",
+        "print(\"HELLO\".lower())     #All Small Letters\n",
+        "print(name.capitalize())   #Only First Letter Big"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "_Nq7datbiFfJ",
+        "outputId": "bfd5ba4b-8fce-4a08-a574-e6c800298264"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "PYTHON\n",
+            "hello\n",
+            "Python\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "7. Check If Something Inside (Membership)\n"
+      ],
+      "metadata": {
+        "id": "CXsNnVEyjLN5"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "vegetable = \"potato\"\n",
+        "print(\"p\" in vegetable)\n",
+        "print(\"s\" in vegetable)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "iDwu2OhkjUHz",
+        "outputId": "86ec2948-21ef-4288-a007-bdbd42306260"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "True\n",
+            "False\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "8. Change a Word or Letter (Replace)\n"
+      ],
+      "metadata": {
+        "id": "ELplxPtBkHsd"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "sentence  = \"I love Java\"\n",
+        "new_sentence = sentence.replace(\"Java\", \"Python\")\n",
+        "print(new_sentence)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "3Kc9866mkd2N",
+        "outputId": "2b38bc8f-9be2-442c-cf6f-8c859c352b5d"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "I love Python\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "9. Break Sentence Into Words(Split)\n"
+      ],
+      "metadata": {
+        "id": "0HQg-o1clUgs"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "sentence = \"python is fun\"\n",
+        "words = sentence.split()\n",
+        "print(words)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "KwWI9pL5le02",
+        "outputId": "06188a6b-98be-441f-e6f3-c8396a697ce6"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['python', 'is', 'fun']\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "10. Glue Words Together\n"
+      ],
+      "metadata": {
+        "id": "sNNWWCMcmNJM"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "words = [\"Python\", \"is\", \"awesome\"]\n",
+        "result = \" \".join(words)\n",
+        "print(result)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Cl2dByivmTfj",
+        "outputId": "08526a3a-5fb3-4854-dae8-72179cdf5d73"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Python is awesome\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
